@@ -1,0 +1,16 @@
+set_global_assignment -entity "alt_cv_gt_reset_rx" -library "alt_cv_gt_reset_rx" -name IP_TOOL_NAME "altera_xcvr_reset_control"
+set_global_assignment -entity "alt_cv_gt_reset_rx" -library "alt_cv_gt_reset_rx" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "alt_cv_gt_reset_rx" -library "alt_cv_gt_reset_rx" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "alt_cv_gt_reset_rx" -name MISC_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+
+set_global_assignment -library "alt_cv_gt_reset_rx" -name VHDL_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx.vhd"]
+set_global_assignment -library "alt_cv_gt_reset_rx" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx/altera_xcvr_functions.sv"]
+set_global_assignment -library "alt_cv_gt_reset_rx" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx/alt_xcvr_resync.sv"]
+set_global_assignment -library "alt_cv_gt_reset_rx" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx/altera_xcvr_reset_control.sv"]
+set_global_assignment -library "alt_cv_gt_reset_rx" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx/alt_xcvr_reset_counter.sv"]
+set_global_assignment -library "alt_cv_gt_reset_rx" -name SOURCE_FILE [file join $::quartus(qip_path) "alt_cv_gt_reset_rx/plain_files.txt"]
+
+set_global_assignment -entity "altera_xcvr_reset_control" -library "alt_cv_gt_reset_rx" -name IP_TOOL_NAME "altera_xcvr_reset_control"
+set_global_assignment -entity "altera_xcvr_reset_control" -library "alt_cv_gt_reset_rx" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_xcvr_reset_control" -library "alt_cv_gt_reset_rx" -name IP_TOOL_ENV "mwpim"

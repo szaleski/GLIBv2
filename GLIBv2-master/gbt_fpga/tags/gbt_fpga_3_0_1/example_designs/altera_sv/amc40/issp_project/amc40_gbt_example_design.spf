@@ -1,0 +1,354 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: 5SGXEA7H(1|2|3)/5SGXEA7K1/.. (0x029030DD)" sof_file="E:/svn_repositories/GBT_project/svn_work/trunk/example_designs/altera_sv/amc40/qii_project/output_files/amc40_gbt_example_design.sof">
+  <display_attributes is_max_probe_read_interval="1" is_write_immediate="1" probe_read_interval="1" probe_read_interval_units="s"/>
+  <instance enable_logging="false" entity_name="" is_auto_node="true" name="">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="9" version="0"/>
+    <sources>
+      <source name="GBT_BANK1 - GBT LINK 1 - LOOPBACK ('0' -> NORMAL | '1' -> LOOPBACK)" value="false"/>
+      <source name="GBT_BANK1 - GENERAL RESET" value="true"/>
+      <source name="GBT_BANK1 - MGT TX PLL RESET" value="false"/>
+      <source name="GBT_BANK1 - GBT LINK 1 - TX RESET" value="false"/>
+      <source name="GBT_BANK1 - GBT LINK 1 - RX RESET" value="false"/>
+      <source name="source[5]" value="false"/>
+      <source name="source[6]" value="true"/>
+      <source name="GBT_BANK1 - GBT LINK 1 - TX HEADER SELECTOR ('0' -> IDLE | '1' -> DATA)" value="false"/>
+      <source name="GBT_BANK1 - GBT LINK 1 - RESET DATA &amp; EXTRA DATA ERROR SEEN FLAGS" value="false"/>
+      <source name="GBT_BANK1 - GBT LINK 1 - RESET RX GBT READY LOST FLAG" value="false"/>
+    </sources>
+    <probes>
+      <probe name="GBT_BANK1 - LATENCY-OPTIMIZED GBT LINK - TX (LOW WHEN STANDARD GBT)"/>
+      <probe name="GBT_BANK1 - LATENCY-OPTIMIZED GBT LINK - RX (LOW WHEN STANDARD GBT)"/>
+      <probe name="GBT_BANK1 - TX_FRAMECLK PLL LOCKED"/>
+      <probe name="GBT_BANK1 - MGT TX PLL LOCKED"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - MGT READY"/>
+      <probe name="GBT_BANK1 - RX_WORDCLK_READY"/>
+      <probe name="GBT_BANK1 - RX_FRAMECLK READY"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - RX GBT READY"/>
+      <probe name="probe[8]"/>
+      <probe name="probe[9]"/>
+      <probe name="probe[10]"/>
+      <probe name="probe[11]"/>
+      <probe name="probe[12]"/>
+      <probe name="probe[13]"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - RX HEADER IS DATA FLAG ('0' -> IDLE | '1' -> DATA)"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - RX GBT READY LOST FLAG"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - RX DATA ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - RX EXTRA DATA WIDE-BUS ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK1 - GBT LINK 1 - RX EXTRA DATA GBT8B10B ERROR SEEN FLAG (-- Comment: Note!! Not implemented yet)"/>
+    </probes>
+    <view>
+      <view_node expanded="true" index="0" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="1" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="2" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="3" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="4" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="5" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="6" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="7" node_type="probe" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK1 - GBT LINK 1 - RX BITSLIP NUMBER" index="0" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="13" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="12" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="11" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="10" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="9" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="0" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="1" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="2" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="3" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="4" node_type="source" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK1 - PATTERN SELECT ('1' -> COUNTER |  '2' -> STATIC | others -> NO DATA ERROR DETECTION)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="6" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="5" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="16" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="17" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="18" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="9" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="15" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="7" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="14" node_type="probe" view_type="independent"/>
+    </view>
+    <log data="" max_size="0" size="0" time="" width="29"/>
+  </instance>
+  <instance enable_logging="false" entity_name="" is_auto_node="true" name="">
+    <node_ip_info instance_id="1" mfg_id="110" node_id="9" version="0"/>
+    <sources>
+      <source name="GBT_BANK2 - GBT LINK 1 - LOOPBACK ('0' -> NORMAL | '1' -> LOOPBACK)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 2 - LOOPBACK ('0' -> NORMAL | '1' -> LOOPBACK)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 3 - LOOPBACK ('0' -> NORMAL | '1' -> LOOPBACK)" value="false"/>
+      <source name="GBT_BANK2 - GENERAL RESET" value="true"/>
+      <source name="GBT_BANK2 - MGT TX PLL RESET" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 1 - TX RESET (Note!! The TX_WORDCLK of GBT Link 1 is used as FeedBack by the MGT TX PLL so this reset afects the other GBT Links of the GBT Bank 2)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 2 - TX RESET" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 3 - TX RESET" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 1 - RX RESET (Note!! The RX_FRAMECLK PLL, feed by GBT Link 1 and shared by all GBT Links of GBT Bank 2, is also reset by this source)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 2 - RX RESET" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 3 - RX RESET" value="false"/>
+      <source name="source[11]" value="false"/>
+      <source name="source[12]" value="false"/>
+      <source name="source[13]" value="true"/>
+      <source name="source[14]" value="false"/>
+      <source name="source[15]" value="false"/>
+      <source name="source[16]" value="false"/>
+      <source name="source[17]" value="true"/>
+      <source name="source[18]" value="false"/>
+      <source name="source[19]" value="true"/>
+      <source name="source[20]" value="true"/>
+      <source name="source[21]" value="true"/>
+      <source name="source[22]" value="true"/>
+      <source name="source[23]" value="true"/>
+      <source name="source[24]" value="true"/>
+      <source name="source[25]" value="false"/>
+      <source name="source[26]" value="false"/>
+      <source name="GBT_BANK2 - TX_WORDCLK MONITORING - TX RESET ENABLE" value="true"/>
+      <source name="source[28]" value="false"/>
+      <source name="source[29]" value="true"/>
+      <source name="GBT_BANK2 - GBT LINK 1 - TX HEADER SELECTOR ('0' -> IDLE | '1' -> DATA)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 2 - TX HEADER SELECTOR ('0' -> IDLE | '1' -> DATA)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 3 - TX HEADER SELECTOR ('0' -> IDLE | '1' -> DATA)" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 1 - RESET DATA &amp; EXTRA DATA ERROR SEEN FLAGS" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 2 - RESET DATA &amp; EXTRA DATA ERROR SEEN FLAGS" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 3 - RESET DATA &amp; EXTRA DATA ERROR SEEN FLAGS" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 1 - RESET RX GBT READY LOST FLAG" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 2 - RESET RX GBT READY LOST FLAG" value="false"/>
+      <source name="GBT_BANK2 - GBT LINK 3 - RESET RX GBT READY LOST FLAG" value="false"/>
+      <source name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - MANUAL RESET" value="false"/>
+      <source name="source[40]" value="false"/>
+      <source name="source[41]" value="false"/>
+      <source name="source[42]" value="true"/>
+      <source name="source[43]" value="true"/>
+      <source name="source[44]" value="true"/>
+      <source name="source[45]" value="false"/>
+      <source name="source[46]" value="false"/>
+      <source name="source[47]" value="true"/>
+      <source name="source[48]" value="true"/>
+      <source name="source[49]" value="true"/>
+      <source name="source[50]" value="false"/>
+      <source name="source[51]" value="false"/>
+      <source name="source[52]" value="false"/>
+      <source name="source[53]" value="false"/>
+      <source name="source[54]" value="false"/>
+      <source name="source[55]" value="false"/>
+      <source name="source[56]" value="false"/>
+      <source name="source[57]" value="false"/>
+      <source name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - ENABLE" value="true"/>
+      <source name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - TRIGGER (Note!! Set to '1' for autoalignment. Otherwise, each rising edge of the TRIGGER adds STEPS to the clock phase)" value="true"/>
+      <source name="source[60]" value="false"/>
+      <source name="source[61]" value="false"/>
+      <source name="source[62]" value="false"/>
+      <source name="source[63]" value="false"/>
+      <source name="source[64]" value="false"/>
+      <source name="source[65]" value="false"/>
+      <source name="source[66]" value="false"/>
+      <source name="source[67]" value="false"/>
+      <source name="source[68]" value="false"/>
+      <source name="source[69]" value="false"/>
+    </sources>
+    <probes>
+      <probe name="GBT_BANK2 - LATENCY-OPTIMIZED GBT LINK - TX (LOW WHEN STANDARD GBT)"/>
+      <probe name="GBT_BANK2 - LATENCY-OPTIMIZED GBT LINK - RX (LOW WHEN STANDARD GBT)"/>
+      <probe name="GBT_BANK2 - FABRIC CLK PLL LOCKED"/>
+      <probe name="GBT_BANK2 - MGT TX PLL LOCKED"/>
+      <probe name="probe[4]"/>
+      <probe name="probe[5]"/>
+      <probe name="probe[6]"/>
+      <probe name="probe[7]"/>
+      <probe name="probe[8]"/>
+      <probe name="probe[9]"/>
+      <probe name="probe[10]"/>
+      <probe name="probe[11]"/>
+      <probe name="GBT_BANK2 - TX_WORDCLK MONITORING - TX_WORDCLK PHASE OK"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - MGT READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - MGT READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - MGT READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX_WORDCLK READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX_WORDCLK READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX_WORDCLK READY"/>
+      <probe name="GBT_BANK2 - RX_FRAMECLK READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX GBT READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX GBT READY"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX GBT READY"/>
+      <probe name="probe[23]"/>
+      <probe name="probe[24]"/>
+      <probe name="probe[25]"/>
+      <probe name="probe[26]"/>
+      <probe name="probe[27]"/>
+      <probe name="probe[28]"/>
+      <probe name="probe[29]"/>
+      <probe name="probe[30]"/>
+      <probe name="probe[31]"/>
+      <probe name="probe[32]"/>
+      <probe name="probe[33]"/>
+      <probe name="probe[34]"/>
+      <probe name="probe[35]"/>
+      <probe name="probe[36]"/>
+      <probe name="probe[37]"/>
+      <probe name="probe[38]"/>
+      <probe name="probe[39]"/>
+      <probe name="probe[40]"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX HEADER IS DATA FLAG ('0' -> IDLE | '1' -> DATA)"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX HEADER IS DATA FLAG ('0' -> IDLE | '1' -> DATA)"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX HEADER IS DATA FLAG ('0' -> IDLE | '1' -> DATA)"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX GBT READY LOST FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX GBT READY LOST FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX GBT READY LOST FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX DATA ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX DATA ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX DATA ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX EXTRA DATA WIDE-BUS ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX EXTRA DATA WIDE-BUS ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX EXTRA DATA WIDE-BUS ERROR SEEN FLAG"/>
+      <probe name="GBT_BANK2 - GBT LINK 1 - RX EXTRA DATA GBT8B10B ERROR SEEN FLAG (Note!! Not implemented yet)"/>
+      <probe name="GBT_BANK2 - GBT LINK 2 - RX EXTRA DATA GBT8B10B ERROR SEEN FLAG (Note!! Not implemented yet)"/>
+      <probe name="GBT_BANK2 - GBT LINK 3 - RX EXTRA DATA GBT8B10B ERROR SEEN FLAG (Note!! Not implemented yet)"/>
+      <probe name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - PLL LOCKED"/>
+      <probe name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - PHASE SHIFT DONE"/>
+    </probes>
+    <view>
+      <view_node expanded="true" index="0" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="1" node_type="probe" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_FRAMECLK SELECTOR ('0' -> USER | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="69" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="68" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_WORDCLK SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="65" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="64" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - RX_WORDCLK SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="67" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="66" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_FLAG SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="61" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="60" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - RX_FLAG SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="63" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="62" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="2" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="39" node_type="source" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 1 STEPS  (Note!! Each STEP is 520ps)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 1 STEPS  (Note!! Each STEP is 520ps)" index="45" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 1 STEPS  (Note!! Each STEP is 520ps)" index="44" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" index="43" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="42" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="41" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="40" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 2 STEPS  (Note!! Each STEP is 520ps)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 2 STEPS  (Note!! Each STEP is 520ps)" index="51" lsb_to_msb="false" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 2 STEPS  (Note!! Each STEP is 520ps)" index="50" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" index="49" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="48" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="47" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 1 - RX BITSLIP NUMBER" index="46" lsb_to_msb="false" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 3 STEPS  (Note!! Each STEP is 520ps)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 3 STEPS  (Note!! Each STEP is 520ps)" index="57" lsb_to_msb="false" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 3 STEPS  (Note!! Each STEP is 520ps)" index="56" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="55" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="54" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" index="53" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 2 - RX BITSLIP NUMBER" index="52" lsb_to_msb="false" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="58" lsb_to_msb="false" node_type="source" radix="hex" view_type="independent"/>
+      <view_node expanded="true" index="59" node_type="source" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 2 - RX BITSLIP NUMBER" index="56" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="57" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 1 - RX BITSLIP NUMBER" index="3" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_WORDCLK MONITORING - THRESHOLD UP" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="18" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="17" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="16" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="15" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="14" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="13" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="12" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="11" node_type="source" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_WORDCLK MONITORING - STATS" index="0" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="11" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="10" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="9" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="7" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="6" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="5" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="4" node_type="probe" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - TX_WORDCLK MONITORING - THRESHOLD LOW" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="26" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="25" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="24" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="23" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="22" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="21" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="20" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="19" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="27" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="12" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="13" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 2 STEPS  (Note!! Each STEP is 520ps)" index="14" lsb_to_msb="false" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 1 CNTSEL (Note!! By default this value must be set to '1')" index="15" lsb_to_msb="false" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 2 CNTSEL (Note!! By default this value must be set to '2')" index="16" lsb_to_msb="false" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 3 CNTSEL (Note!! By default this value must be set to '3')" index="17" lsb_to_msb="false" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="18" lsb_to_msb="false" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="19" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="20" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 2 - RX BITSLIP NUMBER" index="21" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="22" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - GBT LINK 1 - RX BITSLIP NUMBER" index="0" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="28" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_WORDCLK MONITORING - THRESHOLD LOW" index="27" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 2 - RX BITSLIP NUMBER" index="26" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 2 - RX BITSLIP NUMBER" index="25" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="24" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" index="23" node_type="probe" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - GBT LINK 2 - RX BITSLIP NUMBER" index="0" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK PHASE ALIGNER - GBT LINK 2 CNTSEL (Note!! By default this value must be set to '2')" index="34" lsb_to_msb="false" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK SELECTOR ('0' -> USER | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="33" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_FRAMECLK SELECTOR ('0' -> USER | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="32" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_WORDCLK MONITORING - THRESHOLD UP" index="31" lsb_to_msb="false" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - RX_WORDCLK SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="30" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - RX_WORDCLK SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="29" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="0" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_WORDCLK SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="40" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="39" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="38" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - GBT LINK 3 - RX BITSLIP NUMBER" index="37" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - RX_FLAG SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="36" lsb_to_msb="false" node_type="probe" radix="hex" view_type="group_member"/>
+      <view_node expanded="true" index="35" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="0" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="1" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="2" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="3" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="4" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="5" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="6" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="7" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="8" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="9" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="10" node_type="source" view_type="independent"/>
+      <view_node expanded="false" group_name="GBT_BANK2 - PATTERN SELECT ('1' -> COUNTER |  '2' -> STATIC | others -> NO DATA ERROR DETECTION)" index="0" lsb_to_msb="false" node_type="source" radix="hex" view_type="group_header"/>
+      <view_node expanded="true" index="29" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="28" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="33" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="34" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="35" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="47" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="48" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="49" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="50" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="51" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="52" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="53" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="54" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="55" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="36" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="37" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="38" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="44" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="45" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="46" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="30" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="31" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="32" node_type="source" view_type="independent"/>
+      <view_node expanded="true" index="41" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" index="42" node_type="probe" view_type="independent"/>
+      <view_node expanded="true" group_name="GBT_BANK2 - TX_WORDCLK SELECTOR ('0' -> IDLE | '1' -> GBT LINK 1 |  '2' -> GBT LINK 2 |  '3' -> GBT LINK 3)" index="43" lsb_to_msb="false" node_type="probe" radix="hex" view_type="independent"/>
+    </view>
+    <log data="" max_size="0" size="0" time="" width="128"/>
+  </instance>
+</session>

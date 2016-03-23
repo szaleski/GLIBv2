@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="alt_sv_gbt_rx_frameclk_stdpll_sim/alt_sv_gbt_rx_frameclk_stdpll.vho"
+   type="VHDL" />
+ <topLevel name="alt_sv_gbt_rx_frameclk_stdpll" />
+ <deviceFamily name="stratixv" />
+</simPackage>

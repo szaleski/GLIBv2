@@ -1,0 +1,13 @@
+set_global_assignment -entity "alt_cv_gbt_rx_frameclk_stdpll" -library "alt_cv_gbt_rx_frameclk_stdpll" -name IP_TOOL_NAME "altera_pll"
+set_global_assignment -entity "alt_cv_gbt_rx_frameclk_stdpll" -library "alt_cv_gbt_rx_frameclk_stdpll" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "alt_cv_gbt_rx_frameclk_stdpll" -library "alt_cv_gbt_rx_frameclk_stdpll" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "alt_cv_gbt_rx_frameclk_stdpll" -name MISC_FILE [file join $::quartus(qip_path) "alt_cv_gbt_rx_frameclk_stdpll.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+
+set_global_assignment -library "alt_cv_gbt_rx_frameclk_stdpll" -name VHDL_FILE [file join $::quartus(qip_path) "alt_cv_gbt_rx_frameclk_stdpll.vhd"]
+set_global_assignment -library "alt_cv_gbt_rx_frameclk_stdpll" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_cv_gbt_rx_frameclk_stdpll/alt_cv_gbt_rx_frameclk_stdpll_0002.v"]
+set_global_assignment -library "alt_cv_gbt_rx_frameclk_stdpll" -name QIP_FILE [file join $::quartus(qip_path) "alt_cv_gbt_rx_frameclk_stdpll/alt_cv_gbt_rx_frameclk_stdpll_0002.qip"]
+
+set_global_assignment -entity "alt_cv_gbt_rx_frameclk_stdpll_0002" -library "alt_cv_gbt_rx_frameclk_stdpll" -name IP_TOOL_NAME "altera_pll"
+set_global_assignment -entity "alt_cv_gbt_rx_frameclk_stdpll_0002" -library "alt_cv_gbt_rx_frameclk_stdpll" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "alt_cv_gbt_rx_frameclk_stdpll_0002" -library "alt_cv_gbt_rx_frameclk_stdpll" -name IP_TOOL_ENV "mwpim"
